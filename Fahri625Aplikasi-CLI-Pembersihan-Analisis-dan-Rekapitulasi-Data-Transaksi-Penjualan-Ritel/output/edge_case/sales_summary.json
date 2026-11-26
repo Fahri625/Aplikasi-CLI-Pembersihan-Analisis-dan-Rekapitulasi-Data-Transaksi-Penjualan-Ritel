@@ -1,0 +1,51 @@
+{
+  "total_valid_transactions": 3,
+  "invalid_rows_skipped": 4,
+  "duplicate_rows_removed": 1,
+  "unique_customers": 3,
+  "unique_categories": [
+    "Beauty",
+    "Clothing",
+    "Electronics"
+  ],
+  "total_quantity_sold": 9,
+  "total_revenue": 1250.0,
+  "average_transaction_value": 416.67,
+  "min_transaction_value": 100.0,
+  "max_transaction_value": 1000.0,
+  "category_revenue_share_pct": {
+    "Beauty": 12.0,
+    "Clothing": 80.0,
+    "Electronics": 8.0
+  },
+  "by_category": {
+    "Beauty": {
+      "transaction_count": 1,
+      "total_quantity": 3,
+      "total_revenue": 150.0,
+      "average_amount": 150.0
+    },
+    "Clothing": {
+      "transaction_count": 1,
+      "total_quantity": 2,
+      "total_revenue": 1000.0,
+      "average_amount": 1000.0
+    },
+    "Electronics": {
+      "transaction_count": 1,
+      "total_quantity": 4,
+      "total_revenue": 100.0,
+      "average_amount": 100.0
+    }
+  },
+  "by_gender": {
+    "Male": {
+      "transaction_count": 2,
+      "total_revenue": 250.0
+    },
+    "Female": {
+      "transaction_count": 1,
+      "total_revenue": 1000.0
+    }
+  }
+}
